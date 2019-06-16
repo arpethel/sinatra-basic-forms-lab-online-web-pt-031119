@@ -2,8 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
     get '/' do
-      <a href="/new">List A Puppy</a>
-      # erb :index
+      erb :index
     end
 
     get '/new' do
